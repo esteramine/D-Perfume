@@ -1,0 +1,96 @@
+.header{
+    .header-logo{
+        background: no-repeat center url(../images/dPerfume-primary.png);
+        background-size: cover;
+        width: 128px;
+        height: 38px;
+        text-indent: 105%;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 9px 0px;
+    }
+    .shown-on-phone-cart{
+        position: relative;
+        padding-right: 15px;  
+        span{
+            position: absolute;
+            width: 12px;
+            height: 13px;
+            font-size: 10px;
+            text-align: center;
+            background: $primary;
+            border-radius: 6px;
+        }
+    }
+    li{
+        a:hover{
+            transition: all .5s;
+            img{
+                filter:brightness(0.5);
+            }  
+        }
+    }
+    
+}
+
+.header-navbar{
+    li{
+        width: 100%;
+    }
+    a{
+        width: 100%;
+        padding: 10px 0;
+        background: $navbar-collapse-gray;
+        color: $white;
+        text-align: center;
+    }
+    a:hover{
+        transition: all .5s;
+        background: $white;
+        color: $navbar-collapse-gray;
+    }
+}
+
+.footer-banner{
+    background: no-repeat center url(../images/footer-banner.png);
+    background-size: cover;
+    height: 600px;
+    h2{
+        font-family: $font-family;
+        font-weight: $font-weight-bold;
+    }
+    .subscribe-form{
+        margin-top: 312px;
+    }
+    .subscribe{
+        .email-des{
+            width: 65%;
+            height: 60px;
+            border: 2px solid $primary;
+            border-radius: 4px 0px 0px 4px;
+        }
+        .email-btn{
+            width: 30%;
+            padding: 16px 16px 16px 12px;
+            border: 2px solid $primary;
+            border-radius: 0px 4px 4px 0px;
+        }
+    }
+    
+}
+
+.footer{
+    .footer-logo{
+        background-image: url(../images/d’Perfume.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 128px;
+        height: 38px;
+        text-indent: 105%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .logo-des{
+        font-size: 12px;
+    }
+}

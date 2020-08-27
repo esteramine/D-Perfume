@@ -1,0 +1,38 @@
+.product{
+    margin-bottom: 30px;
+    font-family: $font-family;
+    .product-images{
+        img{
+            margin-bottom: 30px;
+        }
+    }
+    .product-des{
+        .product-summary, .product-price{
+            font-size: $font-size-lg;
+        }
+        .add-to-cart-form{
+            input, button{
+                height: 50px;
+                border: 2px solid $primary;
+            }
+            input{
+                width: 43%;
+                border-radius: 4px 0px 0px 4px;
+            }
+            button{
+                width: 53%;
+                border-radius: 0px 4px 4px 0px;
+            }
+            a{
+                font-weight: $font-weight-bold;
+            }
+            a:hover{
+                transition: all .5s;
+                filter: contrast(300%);
+            }
+        }
+        h6{
+            font-weight: $font-weight-bold;
+        }
+    }
+}

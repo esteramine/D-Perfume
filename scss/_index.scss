@@ -1,0 +1,74 @@
+.index-products{
+    a{
+        font-weight: $font-weight-bold;
+    }
+    a:hover{
+        transition: all .5s;
+    }
+
+}
+.index-banner{
+    background: no-repeat center url(../images/index-banner.png);
+    background-size: cover;
+    height: 870px;
+    @include ipadSmaller {
+        height: 480px;
+    }
+    .banner-des{
+        margin-top: 295px;
+        @include ipadSmaller {
+            margin-top: 100px;
+        }
+        p{
+            font-size: $h4-font-size;
+        }
+        a{
+            width: 80%;
+            border-radius: 60px;
+            font-size: $h5-font-size;
+            @include ipadSmaller {
+                width: 100%;
+            }
+        }
+        a:hover{
+            color: $light;
+            background: rgba($color: $white, $alpha: 0.2);
+        }
+    }
+}
+
+.first-products{
+    p,a{
+        font-family: $font-family;
+    }
+    button{
+        width: 100%;
+        border-radius: 60px;
+        font-size: $h5-font-size;
+        font-weight: $font-weight-bold;
+    }
+}
+.middle-products{
+    background: $index-middle-bg;
+    span{
+        color: $navbar-collapse-gray;
+        text-decoration: line-through;
+    }
+    .sold-out{
+        position: relative;
+        img{
+            filter: brightness(0.5);
+        }
+        h4{
+            position: absolute;
+            top: 45%;
+            left: 35%;
+        }
+    }
+}
+
+.bottle-recycling{
+    a{
+        font-family: $font-family;
+    }
+}

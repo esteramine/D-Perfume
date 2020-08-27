@@ -1,0 +1,33 @@
+.products{
+    li{
+        margin-bottom: 60px;
+        .products-link{
+            img{
+                border-bottom: 6px solid white;
+            }
+            a:hover{
+                transition: all .5s;
+                img{
+                    border-bottom: 6px solid $light-primary;
+                } 
+            }
+        }
+        span{
+            color: $secondary;
+            text-decoration: line-through;
+        }
+        .choices{
+            a:hover{
+                transition: all .5s;
+                filter: contrast(4);
+            }
+        }
+        
+    }  
+}
+.pages{
+    .chosen{
+        color: $light-primary;
+        text-decoration: underline;
+    }
+}

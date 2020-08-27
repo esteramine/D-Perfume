@@ -1,0 +1,19 @@
+.userInfo{
+    font-family: $font-family;
+
+    .user-center{
+        a:hover{
+            border-bottom: 2px solid $primary;
+        }
+        .chosen{
+            border-bottom: 2px solid $primary;
+        }
+    }
+    .extra-info{
+        font-size: $font-size-sm;
+        color: #A5A5A5;
+    }
+    .user-info-modify{
+        border-bottom: 2px solid $secondary;
+    }
+}
